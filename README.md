@@ -6,11 +6,11 @@ Here's the Gradle thingamajiggles:
 ```
 repositories {
   ...
-  maven { url 'https://jitpack.io' }
+  maven { url = "https://jitpack.io" }
 }
 
 dependencies {
-  modRuntime 'com.github.florensie:AutoLoad:1.0.0'
+  modRuntime "com.github.florensie:auto-load:1.0.0"
 }
 ```
 
