@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "autoload",
+  "version": "${version}",
+  "name": "AutoLoad",
+  "description": "Automatically load into a world when you start your game",
+  "authors": ["Florens"],
+  "contact": {"repo": "https://github.com/florensie/autoload"},
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["autoload.mixins.json"],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*"
+  }
+}
