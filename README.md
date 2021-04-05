@@ -5,7 +5,7 @@ Automatically load into a world when you start Minecraft. Useful for mod develop
 Here's the Gradle thingamajiggles:
 ```
 repositories {
-  ...
+  [...]
   maven { url = "https://maven.florens.be" }
 }
 
