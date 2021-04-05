@@ -11,10 +11,10 @@ repositories {
 
 dependencies {
   // For Fabric
-  modRuntime "be.florens:autoload-fabric:1.1.0"
+  modRuntime "be.florens:autoload-fabric:1.1.1"
   
   // For Forge
-  runtimeOnly fg.deobf("be.florens:autoload-forge:1.1.0")
+  runtimeOnly fg.deobf("be.florens:autoload-forge:1.1.1")
 }
 ```
 
