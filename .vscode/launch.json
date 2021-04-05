@@ -1,0 +1,57 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Minecraft Client (:fabric)",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/run",
+      "console": "internalConsole",
+      "stopOnEntry": false,
+      "mainClass": "me.shedaniel.architectury.transformer.TransformerRuntime",
+      "vmArgs": "-Dfabric.dli.config\u003dC:\\Users\\Florens\\IdeaProjects\\auto-load\\fabric\\.gradle\\loom-cache\\launch.cfg -Dfabric.dli.env\u003dclient -Dfabric.dli.main\u003dnet.fabricmc.loader.launch.knot.KnotClient -Darchitectury.main.class\u003dC:\\Users\\Florens\\IdeaProjects\\auto-load\\fabric\\.gradle\\architectury\\.main_class -Darchitectury.runtime.transformer\u003dC:\\Users\\Florens\\IdeaProjects\\auto-load\\fabric\\.gradle\\architectury\\.transforms -Darchitectury.properties\u003dC:\\Users\\Florens\\IdeaProjects\\auto-load\\fabric\\.gradle\\architectury\\.properties -Djdk.attach.allowAttachSelf\u003dtrue -javaagent:C:\\Users\\Florens\\IdeaProjects\\auto-load\\.gradle\\architectury\\architectury-transformer-agent.jar",
+      "args": "",
+      "env": {},
+      "projectName": ":fabric"
+    },
+    {
+      "type": "java",
+      "name": "Minecraft Server (:fabric)",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/run",
+      "console": "internalConsole",
+      "stopOnEntry": false,
+      "mainClass": "me.shedaniel.architectury.transformer.TransformerRuntime",
+      "vmArgs": "-Dfabric.dli.config\u003dC:\\Users\\Florens\\IdeaProjects\\auto-load\\fabric\\.gradle\\loom-cache\\launch.cfg -Dfabric.dli.env\u003dserver -Dfabric.dli.main\u003dnet.fabricmc.loader.launch.knot.KnotServer -Darchitectury.main.class\u003dC:\\Users\\Florens\\IdeaProjects\\auto-load\\fabric\\.gradle\\architectury\\.main_class -Darchitectury.runtime.transformer\u003dC:\\Users\\Florens\\IdeaProjects\\auto-load\\fabric\\.gradle\\architectury\\.transforms -Darchitectury.properties\u003dC:\\Users\\Florens\\IdeaProjects\\auto-load\\fabric\\.gradle\\architectury\\.properties -Djdk.attach.allowAttachSelf\u003dtrue -javaagent:C:\\Users\\Florens\\IdeaProjects\\auto-load\\.gradle\\architectury\\architectury-transformer-agent.jar",
+      "args": "nogui",
+      "env": {},
+      "projectName": ":fabric"
+    },
+    {
+      "type": "java",
+      "name": "Minecraft Client (:forge)",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/run",
+      "console": "internalConsole",
+      "stopOnEntry": false,
+      "mainClass": "me.shedaniel.architectury.transformer.TransformerRuntime",
+      "vmArgs": "-Dfabric.dli.config\u003dC:\\Users\\Florens\\IdeaProjects\\auto-load\\forge\\.gradle\\loom-cache\\launch.cfg -Dfabric.dli.env\u003dclient -Dfabric.dli.main\u003dnet.fabricmc.loader.launch.knot.KnotClient -Darchitectury.main.class\u003dC:\\Users\\Florens\\IdeaProjects\\auto-load\\forge\\.gradle\\architectury\\.main_class -Darchitectury.runtime.transformer\u003dC:\\Users\\Florens\\IdeaProjects\\auto-load\\forge\\.gradle\\architectury\\.transforms -Darchitectury.properties\u003dC:\\Users\\Florens\\IdeaProjects\\auto-load\\forge\\.gradle\\architectury\\.properties -Djdk.attach.allowAttachSelf\u003dtrue -javaagent:C:\\Users\\Florens\\IdeaProjects\\auto-load\\.gradle\\architectury\\architectury-transformer-agent.jar",
+      "args": "",
+      "env": {},
+      "projectName": ":forge"
+    },
+    {
+      "type": "java",
+      "name": "Minecraft Server (:forge)",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/run",
+      "console": "internalConsole",
+      "stopOnEntry": false,
+      "mainClass": "me.shedaniel.architectury.transformer.TransformerRuntime",
+      "vmArgs": "-Dfabric.dli.config\u003dC:\\Users\\Florens\\IdeaProjects\\auto-load\\forge\\.gradle\\loom-cache\\launch.cfg -Dfabric.dli.env\u003dserver -Dfabric.dli.main\u003dnet.fabricmc.loader.launch.knot.KnotServer -Darchitectury.main.class\u003dC:\\Users\\Florens\\IdeaProjects\\auto-load\\forge\\.gradle\\architectury\\.main_class -Darchitectury.runtime.transformer\u003dC:\\Users\\Florens\\IdeaProjects\\auto-load\\forge\\.gradle\\architectury\\.transforms -Darchitectury.properties\u003dC:\\Users\\Florens\\IdeaProjects\\auto-load\\forge\\.gradle\\architectury\\.properties -Djdk.attach.allowAttachSelf\u003dtrue -javaagent:C:\\Users\\Florens\\IdeaProjects\\auto-load\\.gradle\\architectury\\architectury-transformer-agent.jar",
+      "args": "nogui",
+      "env": {},
+      "projectName": ":forge"
+    }
+  ]
+}

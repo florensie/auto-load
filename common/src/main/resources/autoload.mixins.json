@@ -3,7 +3,7 @@
   "minVersion": "0.8",
   "package": "be.florens.autoload",
   "compatibilityLevel": "JAVA_8",
-  "client": ["MixinMinecraftClient"],
+  "client": ["MinecraftMixin"],
   "injectors": {
     "defaultRequire": 1
   }

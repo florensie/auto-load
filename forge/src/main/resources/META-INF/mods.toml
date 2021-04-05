@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[32,)"
+issueTrackerURL = "https://github.com/florensie/autoload/issues"
+license = "MIT"
+
+[[mods]]
+modId = "autoload"
+version = "${version}"
+displayName = "AutoLoad"
+authors = "Florens"
+description = '''
+Automatically load into a world when you start your game
+'''
+
+[[dependencies.autoload]]
+modId = "forge"
+mandatory = true
+versionRange = "[32.0.75,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.autoload]]
+modId = "minecraft"
+mandatory = true
+ordering = "NONE"
+side = "CLIENT"

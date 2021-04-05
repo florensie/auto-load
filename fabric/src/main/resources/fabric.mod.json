@@ -5,7 +5,10 @@
   "name": "AutoLoad",
   "description": "Automatically load into a world when you start your game",
   "authors": ["Florens"],
-  "contact": {"repo": "https://github.com/florensie/autoload"},
+  "contact": {
+    "sources": "https://github.com/florensie/autoload",
+    "issues": "https://github.com/florensie/autoload/issues"
+  },
   "license": "MIT",
   "environment": "client",
   "mixins": ["autoload.mixins.json"],
