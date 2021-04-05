@@ -6,11 +6,15 @@ Here's the Gradle thingamajiggles:
 ```
 repositories {
   ...
-  maven { url = "https://jitpack.io" }
+  maven { url = "https://maven.florens.be" }
 }
 
 dependencies {
-  modRuntime "com.github.florensie:auto-load:1.0.0"
+  // For Fabric
+  modRuntime "be.florens:autoload-fabric:1.1.0"
+  
+  // For Forge
+  runtimeOnly fg.deobf("be.florens:autoload-forge:1.1.0")
 }
 ```
 
