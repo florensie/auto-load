@@ -17,6 +17,7 @@ dependencies {
   runtimeOnly fg.deobf("be.florens:autoload-forge:1.1.3")
 }
 ```
+On Forge you might also need this to fix Mixin's broken refmap remapping: https://github.com/SpongePowered/Mixin/issues/462#issuecomment-791370319
 
 ## Frequently Asked Questions
 **What's  the average lifetime of a cat?**
