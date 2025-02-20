@@ -1,6 +1,9 @@
 # AutoLoad
 Automatically load into a world when you start Minecraft. Useful for mod development, does not work on servers. Simply name or rename your world to `autoload` and you will save some extra seconds.
 
+> [!IMPORTANT]  
+> This mod has become redundant since Minecraft version 1.20 and above. Use the [Quick Play command line arguments instead](https://minecraft.wiki/w/Quick_Play#Command_line_arguments).
+
 ## Gronk setup
 Here's the Gradle thingamajiggles:
 ```
